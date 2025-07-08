@@ -163,7 +163,7 @@
 
 .gallery-cell {
   width: 80%;
-  height: 450px;
+  height: 550px;
   background: #8C8;
   counter-increment: gallery-cell;
 
