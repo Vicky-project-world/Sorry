@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Heartfelt Apologies</title>
+<link rel="stylesheet" href="./sorry.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+</head>
+<body>
+  <div class="container" role="main" aria-label="Heartfelt apology messages">
+    <h1>My dear Sweetheart</h1>
+    <h1>I'm So Sorry</h1>
+    <p class="subtitle">From the depths of my heart, please forgive me.</p>
+    <div class="cards">
+      <div class="card">I'm truly sorry for hurting you. Please forgive me.</div>
+      <div class="card">I apologize from the bottom of my heart. I never meant to upset you.</div>
+      <div class="card">My sincerest apologies. I value you and our relationship deeply.</div>
+      <div class="card">I'm sorry for my mistakes. I promise to do better.</div>
+      <div class="card">Please accept my apology. You mean the world to me.</div>
+      <div class="card">I'm sorry for the pain I've caused. Let's work through this together.</div>
+      <div class="card">Forgive me, my love. I am committed to making things right.</div>
+    </div>
+    <footer>With all my love and regret ❤️</footer>
+
+    <div class="button">
+        <button class="type1" id="btn" onClick="clickFunction()">click me</button>
+    </div>
+
+    <div id="pic-container">
+        <!-- Flickity HTML init -->
+
+        <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+            <div class="gallery-cell"><img class="gallery-img" src="./assets/1.jpg" alt=""></div>
+            <div class="gallery-cell"><img class="gallery-img" src="./assets/2.jpg" alt=""></div>
+            <div class="gallery-cell"><img class="gallery-img" src="./assets/3.jpg" alt=""></div>
+            <div class="gallery-cell"><img class="gallery-img" src="./assets/4.jpg" alt=""></div>
+            <div class="gallery-cell"><img class="gallery-img" src="./assets/5.jpg" alt=""></div>
+            <div class="gallery-cell"><img class="gallery-img" src="./assets/6.jpg" alt=""></div>
+            <div class="gallery-cell"><img class="gallery-img" src="./assets/7.png" alt=""></div>
+            <div class="gallery-cell"><img class="gallery-img" src="./assets/8.png" alt=""></div>
+            <div class="gallery-cell"><img class="gallery-img" src="./assets/9.png" alt=""></div>
+            <div class="gallery-cell"><img class="gallery-img" src="./assets/10.png" alt=""></div>
+          
+            <div class="gallery-cell">
+              <div class="text-container">
+                <h3>I</h3>
+                <h3>Love</h3>
+                <h3>You</h3>
+                <h3>Darling</h3>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <script>
+    function clickFunction() {
+    document.getElementById("btn").style.display = "none";
+    document.getElementById("pic-container").style.visibility = "visible";
+    document.getElementById("pic-container").style.height = "600px";
+    document.getElementById("pic-container").style.animation = "zoom-in 1.5s ease"
+    }
+
+
+    window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+    }
+
+  </script>
+</body>
+</html>
