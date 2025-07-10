@@ -15,12 +15,12 @@
   }
 
   /* Container */
-  .container-fluid {
+  .container {
     background: rgba(255, 255, 255, 0.95);
     border-radius: 25px;
     box-shadow: 0 15px 40px rgba(255, 105, 135, 0.4);
     max-width: 700px;
-    width: 100%;
+    width: 108%;
     padding: 10px 20px;
     margin: -20px -20px -20px -20px;
     text-align: center;
@@ -154,6 +154,7 @@
 
 .gallery {
   background: #EEE;
+  width: 110%;
 }
 
 
@@ -179,7 +180,7 @@ h3{
     text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
 }
 
-.text-container {
+.text-container-last {
     margin-top: 35%;
 }
 
